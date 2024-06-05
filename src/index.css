@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../public/font/IRANSans.eot');
+  src: url('../public/font/IRANSans.eot?#iefix') format('embedded-opentype'),
+      url('../public/font/IRANSans.woff2') format('woff2'),
+      url('../public/font/IRANSans.woff') format('woff'),
+      url('../public/font/IRANSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'IRANSans-M';
+  src: url('../public/font/medium/IRANSans-Medium.eot');
+  src: url('../public/font/medium/IRANSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../public/font/medium/IRANSans-Medium.woff2') format('woff2'),
+      url('../public/font/medium/IRANSans-Medium.woff') format('woff'),
+      url('../public/font/medium/IRANSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'IRANSans' ;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body{
+
+  background-color: black
+}
+
